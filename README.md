@@ -1,7 +1,14 @@
 # gallery_app
 
 Simple gallery app for android build Flutter
-just to demonstrate basic function of galley app
+
+Just to demonstrate basic function of galley app
+
+#### Features
+- [x] Multiple Image
+- [x] Duble Tap ZoomIn/ZoomOut
+- [x] Pinch ZoomIn/ZoomOut
+- [x] Rotation Enable
 
 ## Getting Started
 
@@ -11,7 +18,7 @@ A few resources to get you started if this is your first Flutter project:
 
 ### Screenshots
 ***
-<img src="flutter_01.png" height="300em" /> <img src="flutter_02.jpg" height="300em" /> <img src="flutter_03.png" height="300em" /> <img src="flutter_04.png" height="300em" /> <img src="flutter_05.png" height="300em" />
+<img src="screenShots/flutter_01.png" height="300em" /> <img src="screenShots/flutter_02.jpg" height="300em" /> <img src="screenShots/flutter_03.png" height="300em" /> <img src="screenShots/flutter_04.png" height="300em" /> <img src="screenShots/flutter_05.png" height="300em" /> <img src="screenShots/flutter_02.png" height="300em" /> <img src="screenShots/flutter_06.png" height="300em" /> <img src="screenShots/flutter_07.png" height="300em" /> <img src="screenShots/flutter_08.png" height="300em" /> <img src="screenShots/flutter_12.png" height="300em" /> <img src="screenShots/flutter_09.png" height="300em" /> <img src="screenShots/flutter_10.png" height="300em" /> <img src="screenShots/flutter_11.png" height="300em" /> <img src="screenShots/flutter_13.png" height="300em" /> 
 
 ***
 # Project Created
