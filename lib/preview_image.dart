@@ -34,11 +34,10 @@ class _PreviewImageState extends State<PreviewImage> {
                 backgroundDecoration: BoxDecoration(
                   color: Theme.of(context).canvasColor,
                 ),
+                loadingChild: Center(
+                  child: CircularProgressIndicator(),
+                ),
               ),
-              // Image.asset(
-              //   widget.picDetails_view,
-              //   fit: BoxFit.cover,
-              // ),
             ),
           ),
         ),
