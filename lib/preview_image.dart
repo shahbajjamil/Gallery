@@ -29,7 +29,11 @@ class _PreviewImageState extends State<PreviewImage> {
                   widget.picDetails_view,
                 ),
                 minScale: PhotoViewComputedScale.contained * 0.5,
-                maxScale: PhotoViewComputedScale.contained * 3,
+                maxScale: PhotoViewComputedScale.contained * 5,
+                enableRotation: true,
+                backgroundDecoration: BoxDecoration(
+                  color: Theme.of(context).canvasColor,
+                ),
               ),
               // Image.asset(
               //   widget.picDetails_view,
