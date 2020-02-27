@@ -2,8 +2,9 @@
  * Author: Shahbaj Jamil
  *profile: https://github.com/shahbajjamil
   */
-  
+
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class PreviewImage extends StatefulWidget {
   final picDetails_view;
@@ -23,10 +24,17 @@ class _PreviewImageState extends State<PreviewImage> {
           child: Hero(
             tag: widget.picDetails_view,
             child: Material(
-              child: Image.asset(
-                widget.picDetails_view,
-                fit: BoxFit.cover,
+              child: PhotoView(
+                imageProvider: AssetImage(
+                  widget.picDetails_view,
+                ),
+                minScale: PhotoViewComputedScale.contained * 0.5,
+                maxScale: PhotoViewComputedScale.contained * 3,
               ),
+              // Image.asset(
+              //   widget.picDetails_view,
+              //   fit: BoxFit.cover,
+              // ),
             ),
           ),
         ),
